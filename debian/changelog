@@ -1,3 +1,9 @@
+zijung-configure (2.0.0) unstable; urgency=medium
+
+  * Initial Release.
+
+ -- Zijung Chueh <i@zijung.me>  Wed, 18 Jul 2018 03:41:03 +0800
+
 zijung-configure (1.0.0) unstable; urgency=medium
 
   * Initial Release.

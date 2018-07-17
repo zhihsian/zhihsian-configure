@@ -15,6 +15,10 @@ Depends:
  xserver-xorg-input-libinput,
 Description: My configure files of libinput
 
+Package: zijung-intel-graphics
+Architecture: all
+Description: My configure files of intel graphics
+
 Package: zijung-x11-common
 Architecture: all
 Depends:
