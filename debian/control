@@ -1,0 +1,60 @@
+Source: zijung-configure
+Section: misc
+Priority: optional
+Maintainer: Zijung Chueh <i@zijung.me>
+Build-Depends:
+ debhelper (>= 11),
+Standards-Version: 4.1.3
+Homepage: https://github.com/zijung/zijung-configure
+Vcs-Browser: https://github.com/zijung/zijung-configure
+Vcs-Git: https://github.com/zijung/zijung-configure.git
+
+Package: zijung-libinput
+Architecture: all
+Depends:
+ xserver-xorg-input-libinput,
+Description: My configure files of libinput
+
+Package: zijung-x11-common
+Architecture: all
+Depends:
+ x11-common,
+Description: My configure files of x11
+
+Package: zijung-noto
+Architecture: all
+Depends:
+ fonts-noto,
+Description: My configure files of fonts-noto
+
+Package: zijung-lightdm
+Architecture: all
+Depends:
+ desktop-base,
+ lightdm,
+Description: My configure files of lightdm
+
+Package: zijung-lightdm-mbp
+Architecture: all
+Depends:
+ zijung-lightdm,
+Description: My configure files of lightdm for mbp
+
+Package: zijung-lightdm-gtk-greeter
+Architecture: all
+Depends:
+ desktop-base,
+ lightdm,
+Description: My configure files of lightdm-gtk-greeter
+
+Package: zijung-slick-greeter
+Architecture: all
+Depends:
+ slick-greeter,
+Description: My configure files of slick-greeter
+
+Package: zijung-chrome
+Architecture: all
+Depends:
+ gnupg2,
+Description: My configure files of chrome

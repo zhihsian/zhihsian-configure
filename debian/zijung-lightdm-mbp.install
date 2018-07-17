@@ -1,0 +1,2 @@
+10_greeter-wrapper.conf /usr/share/lightdm/lightdm.conf.d
+greeter-wrapper /etc/lightdm

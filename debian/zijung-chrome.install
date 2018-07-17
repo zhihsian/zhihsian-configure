@@ -1,0 +1,2 @@
+google-chrome.gpg /etc/apt/trusted.gpg.d
+google-chrome.list /etc/apt/sources.list.d
