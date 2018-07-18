@@ -1,3 +1,9 @@
+zijung-configure (2.0.1) unstable; urgency=medium
+
+  * zijung-chrome 使用 https
+
+ -- Zijung Chueh <i@zijung.me>  Thu, 19 Jul 2018 01:16:46 +0800
+
 zijung-configure (2.0.0) unstable; urgency=medium
 
   * Initial Release.
