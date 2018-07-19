@@ -25,6 +25,12 @@ Depends:
  x11-common,
 Description: My configure files of x11
 
+Package: zijung-sudo
+Architecture: all
+Depends:
+ sudo,
+Description: My configure files of sudo
+
 Package: zijung-noto
 Architecture: all
 Depends:
