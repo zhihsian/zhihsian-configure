@@ -1,1 +1,1 @@
-slick-greeter.conf /etc/lightdm
+slick-greeter/slick-greeter.conf /etc/lightdm

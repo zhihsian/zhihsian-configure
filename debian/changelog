@@ -1,3 +1,10 @@
+zijung-configure (2.0.3) unstable; urgency=medium
+
+  * 添加 zijung-disable-xhc-wake
+  * 修改目錄結構
+
+ -- Zijung Chueh <i@zijung.me>  Mon, 23 Jul 2018 22:27:51 +0800
+
 zijung-configure (2.0.2) unstable; urgency=medium
 
   * 修復 zijung-sudo 未打包

@@ -1,1 +1,1 @@
-40-libinput.conf /etc/X11/xorg.conf.d
+libinput/40-libinput.conf /etc/X11/xorg.conf.d
