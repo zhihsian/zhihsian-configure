@@ -1,3 +1,9 @@
+zijung-configure (2.0.5) unstable; urgency=medium
+
+  * zijung-google-chrome 添加依賴 fonts-noto-color-emoji
+
+ -- Zijung Chueh <i@zijung.me>  Thu, 26 Jul 2018 20:57:03 +0800
+
 zijung-configure (2.0.4) unstable; urgency=medium
 
   * google chrome emoji 修正

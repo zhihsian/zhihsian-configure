@@ -69,4 +69,6 @@ Description: My configure files to disable xhc wake
 
 Package: zijung-google-chrome
 Architecture: all
+Depends:
+ fonts-noto-color-emoji,
 Description: My configure files of google-chrome
