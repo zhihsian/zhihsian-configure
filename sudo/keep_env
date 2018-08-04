@@ -1,1 +1,1 @@
-Defaults env_keep += "EDITOR GDK_SCALE"
+Defaults env_keep += "EDITOR GDK_SCALE GDK_DPI_SCALE"
