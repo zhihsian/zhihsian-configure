@@ -1,3 +1,12 @@
+zijung-configure (3.0.0) unstable; urgency=medium
+
+  * sudo keep env 添加 GDK_DPI_SCALE
+  * 刪除 intel 顯卡的 TearFree 選項
+  * 添加 intel 顯卡開機設置背光
+  * 添加 nvidia-driver，使用最節能的模式
+
+ -- Zijung Chueh <i@zijung.me>  Sun, 5 Aug 2018 17:10:40 +0800
+
 zijung-configure (2.0.5) unstable; urgency=medium
 
   * zijung-google-chrome 添加依賴 fonts-noto-color-emoji
