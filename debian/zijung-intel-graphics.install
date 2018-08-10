@@ -1,1 +1,1 @@
-intel-graphics/20-intel.conf /etc/X11/xorg.conf.d
+intel-graphics/brightness.conf /etc/tmpfiles.d
