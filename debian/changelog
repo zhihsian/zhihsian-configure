@@ -1,3 +1,9 @@
+zijung-configure (3.1.0) unstable; urgency=medium
+
+  * 禁止 google chrome 自動添加 repo
+
+ -- Zijung Chueh <i@zijung.me>  Mon, 27 Aug 2018 16:46:33 +0800
+
 zijung-configure (3.0.0) unstable; urgency=medium
 
   * sudo keep env 添加 GDK_DPI_SCALE
