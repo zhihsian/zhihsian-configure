@@ -1,3 +1,9 @@
+zijung-configure (3.3.0) unstable; urgency=medium
+
+  * Nvidia 顯卡驅動添加 TripleBuffer
+
+ -- Zijung Chueh <i@zijung.me>  Thu, 27 Sep 2018 00:39:02 +0800
+
 zijung-configure (3.2.0) unstable; urgency=medium
 
   * 刪除 intel-graphics
