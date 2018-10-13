@@ -17,37 +17,35 @@ package_zijung-libinput() {
     pkgdesc='My configure files of libinput'
     depends=('xf86-input-libinput')
 
-    install -D -m755 ${startdir}/libinput/40-libinput.conf ${pkgdir}/etc/X11/xorg.conf.d/40-libinput.conf
+    install -D ${startdir}/libinput/40-libinput.conf ${pkgdir}/etc/X11/xorg.conf.d/40-libinput.conf
 }
 
 package_zijung-nvidia-graphics() {
     pkgdesc='My configure files of nvidia graphics'
     depends=('nvidia-dkms')
 
-    install -D -m755 ${startdir}/nvidia-graphics/20-nvidia.conf ${pkgdir}/etc/X11/xorg.conf.d/20-nvidia.conf
+    install -D ${startdir}/nvidia-graphics/20-nvidia.conf ${pkgdir}/etc/X11/xorg.conf.d/20-nvidia.conf
 }
 
 package_zijung-sudo() {
     pkgdesc='My configure files of sudo'
     depends=('sudo')
 
-    install -D -m755 ${startdir}/sudo/keep_env ${pkgdir}/etc/sudoers.d/keep_env
+    install -D ${startdir}/sudo/keep_env ${pkgdir}/etc/sudoers.d/keep_env
 }
 
 package_zijung-noto-cjk() {
     pkgdesc='My configure files of fonts-noto'
     depends=('noto-fonts-cjk')
 
-    install -D -m755 ${startdir}/noto-cjk/70-fonts-noto-cjk.conf ${pkgdir}/etc/fonts/conf.avail/70-fonts-noto-cjk.conf
-
     install -d ${pkgdir}/etc/fonts/conf.d
-    ln -s /etc/fonts/conf.avail/70-fonts-noto-cjk.conf ${pkgdir}/etc/fonts/conf.d/70-fonts-noto-cjk.conf
+    ln -s /etc/fonts/conf.avail/70-noto-cjk.conf ${pkgdir}/etc/fonts/conf.d/70-noto-cjk.conf
 }
 
 package_zijung-disable-xhc-wake() {
     pkgdesc='My configure files to disable xhc wake'
 
-    install -D -m755 ${startdir}/disable-xhc-wake/disable-xhc-wake.conf ${pkgdir}/etc/tmpfiles.d/disable-xhc-wake.conf
+    install -D ${startdir}/disable-xhc-wake/disable-xhc-wake.conf ${pkgdir}/etc/tmpfiles.d/disable-xhc-wake.conf
 }
 
 package_zijung-plasma-desktop() {
@@ -59,11 +57,14 @@ package_zijung-plasma-desktop() {
              'papirus-icon-theme'
              'latte-dock'
              'fcitx-rime'
-             'fcitx-im'
+             'fcitx-gtk2'
+             'fcitx-gtk3'
+             'fcitx-qt4'
+             'fcitx-qt5'
              'fcitx-skin-material'
              'firefox'
              'firefox-i18n-zh-tw')
 
-    install -D -m755 ${startdir}/plasma-desktop/ZijungBreeze.colors ${pkgdir}/usr/share/color-schemes/ZijungBreeze.colors
-    install -D -m755 ${startdir}/plasma-desktop/ZijungBreeze.colorscheme ${pkgdir}/usr/share/konsole/ZijungBreeze.colorscheme
+    install -D ${startdir}/plasma-desktop/ZijungBreeze.colors ${pkgdir}/usr/share/color-schemes/ZijungBreeze.colors
+    install -D ${startdir}/plasma-desktop/ZijungBreeze.colorscheme ${pkgdir}/usr/share/konsole/ZijungBreeze.colorscheme
 }
