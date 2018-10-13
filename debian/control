@@ -69,6 +69,23 @@ Package: zijung-disable-xhc-wake
 Architecture: all
 Description: My configure files to disable xhc wake
 
+Package: zijung-plasma-desktop
+Architecture: all
+Depends:
+  kde-plasma-desktop,
+  plasma-nm,
+  plasma-applet-redshift-control,
+  sddm-theme-debian-breeze,
+  breeze-blurred,
+  materia-gtk-theme,
+  papirus-icon-theme,
+  latte-dock,
+  fcitx-rime,
+  fcitx-skin-material,
+  firefox,
+  firefox-l10n-zh-tw,
+Description: My configure files of plasma desktop
+
 Package: zijung-google-chrome
 Architecture: all
 Depends:
