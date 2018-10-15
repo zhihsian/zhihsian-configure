@@ -86,6 +86,7 @@ Depends:
  fcitx-skin-material,
  firefox,
  firefox-l10n-zh-tw,
+ libappindicator3-1,
 Description: My configure files of plasma desktop
 
 Package: zijung-google-chrome

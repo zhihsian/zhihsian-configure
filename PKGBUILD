@@ -7,7 +7,7 @@ pkgname=('zijung-libinput'
          'zijung-noto-cjk'
          'zijung-disable-xhc-wake'
          'zijung-plasma-desktop')
-pkgver=4.0.0
+pkgver=4.1.0
 pkgrel=1
 arch=(any)
 license=('MIT')
@@ -63,7 +63,8 @@ package_zijung-plasma-desktop() {
              'fcitx-qt5'
              'fcitx-skin-material'
              'firefox'
-             'firefox-i18n-zh-tw')
+             'firefox-i18n-zh-tw',
+             'libappindicator-gtk3')
 
     install -D ${startdir}/plasma-desktop/ZijungBreeze.colors ${pkgdir}/usr/share/color-schemes/ZijungBreeze.colors
     install -D ${startdir}/plasma-desktop/ZijungBreeze.colorscheme ${pkgdir}/usr/share/konsole/ZijungBreeze.colorscheme
