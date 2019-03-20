@@ -1,3 +1,9 @@
+zijung-configure (4.2.0) unstable; urgency=medium
+
+  * 添加 zijung-qt-dev
+
+ -- Zijung Chueh <i@zijung.me>  Wed, 20 Mar 2019 23:42:06 +0800
+
 zijung-configure (4.1.0) unstable; urgency=medium
 
   * zijung-plasma-desktop 添加依賴 libappindicator3-1

@@ -94,3 +94,12 @@ Architecture: all
 Depends:
  fonts-noto-color-emoji,
 Description: My configure files of google-chrome
+
+Package: zijung-qt-dev
+Architecture: all
+Depends:
+ qtcreator,
+ qt5-default,
+ qtdeclarative5-dev,
+ qml-module-qtquick-controls2,
+Description: My meta-package of qt development environment
