@@ -1,4 +1,0 @@
-google-chrome/70-google-chrome-emoji.conf /usr/share/fontconfig/conf.avail
-google-chrome/google-chrome /etc/default
-google-chrome/google-chrome.gpg /etc/apt/trusted.gpg.d
-google-chrome/google-chrome.list /etc/apt/sources.list.d
