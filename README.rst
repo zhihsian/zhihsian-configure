@@ -1,3 +1,3 @@
 ################
-zijung-configure
+zhihsian-configure
 ################

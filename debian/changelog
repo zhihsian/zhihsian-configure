@@ -1,87 +1,87 @@
-zijung-configure (4.2.0) unstable; urgency=medium
+zhihsian-configure (4.2.0) unstable; urgency=medium
 
-  * 添加 zijung-qt-dev
+  * 添加 zhihsian-qt-dev
 
- -- Zijung Chueh <i@zijung.me>  Wed, 20 Mar 2019 23:42:06 +0800
+ -- Zhihsian Que <i@zhihsian.me>  Wed, 20 Mar 2019 23:42:06 +0800
 
-zijung-configure (4.1.0) unstable; urgency=medium
+zhihsian-configure (4.1.0) unstable; urgency=medium
 
-  * zijung-plasma-desktop 添加依賴 libappindicator3-1
+  * zhihsian-plasma-desktop 添加依賴 libappindicator3-1
 
- -- Zijung Chueh <i@zijung.me>  Sat, 13 Oct 2018 16:58:19 +0800
+ -- Zhihsian Que <i@zhihsian.me>  Sat, 13 Oct 2018 16:58:19 +0800
 
-zijung-configure (4.0.0) unstable; urgency=medium
+zhihsian-configure (4.0.0) unstable; urgency=medium
 
-  * 添加 zijung-plasma-desktop
+  * 添加 zhihsian-plasma-desktop
 
- -- Zijung Chueh <i@zijung.me>  Sat, 13 Oct 2018 16:58:19 +0800
+ -- Zhihsian Que <i@zhihsian.me>  Sat, 13 Oct 2018 16:58:19 +0800
 
-zijung-configure (3.3.0) unstable; urgency=medium
+zhihsian-configure (3.3.0) unstable; urgency=medium
 
   * Nvidia 顯卡驅動添加 TripleBuffer
 
- -- Zijung Chueh <i@zijung.me>  Thu, 27 Sep 2018 00:39:02 +0800
+ -- Zhihsian Que <i@zhihsian.me>  Thu, 27 Sep 2018 00:39:02 +0800
 
-zijung-configure (3.2.0) unstable; urgency=medium
+zhihsian-configure (3.2.0) unstable; urgency=medium
 
   * 刪除 intel-graphics
 
- -- Zijung Chueh <i@zijung.me>  Mon, 27 Aug 2018 23:08:05 +0800
+ -- Zhihsian Que <i@zhihsian.me>  Mon, 27 Aug 2018 23:08:05 +0800
 
-zijung-configure (3.1.0) unstable; urgency=medium
+zhihsian-configure (3.1.0) unstable; urgency=medium
 
   * 禁止 google chrome 自動添加 repo
 
- -- Zijung Chueh <i@zijung.me>  Mon, 27 Aug 2018 16:46:33 +0800
+ -- Zhihsian Que <i@zhihsian.me>  Mon, 27 Aug 2018 16:46:33 +0800
 
-zijung-configure (3.0.0) unstable; urgency=medium
+zhihsian-configure (3.0.0) unstable; urgency=medium
 
   * sudo keep env 添加 GDK_DPI_SCALE
   * 刪除 intel 顯卡的 TearFree 選項
   * 添加 intel 顯卡開機設置背光
   * 添加 nvidia-driver，使用最節能的模式
 
- -- Zijung Chueh <i@zijung.me>  Sun, 5 Aug 2018 17:10:40 +0800
+ -- Zhihsian Que <i@zhihsian.me>  Sun, 5 Aug 2018 17:10:40 +0800
 
-zijung-configure (2.0.5) unstable; urgency=medium
+zhihsian-configure (2.0.5) unstable; urgency=medium
 
-  * zijung-google-chrome 添加依賴 fonts-noto-color-emoji
+  * zhihsian-google-chrome 添加依賴 fonts-noto-color-emoji
 
- -- Zijung Chueh <i@zijung.me>  Thu, 26 Jul 2018 20:57:03 +0800
+ -- Zhihsian Que <i@zhihsian.me>  Thu, 26 Jul 2018 20:57:03 +0800
 
-zijung-configure (2.0.4) unstable; urgency=medium
+zhihsian-configure (2.0.4) unstable; urgency=medium
 
   * google chrome emoji 修正
 
- -- Zijung Chueh <i@zijung.me>  Thu, 26 Jul 2018 19:05:27 +0800
+ -- Zhihsian Que <i@zhihsian.me>  Thu, 26 Jul 2018 19:05:27 +0800
 
-zijung-configure (2.0.3) unstable; urgency=medium
+zhihsian-configure (2.0.3) unstable; urgency=medium
 
-  * 添加 zijung-disable-xhc-wake
+  * 添加 zhihsian-disable-xhc-wake
   * 修改目錄結構
 
- -- Zijung Chueh <i@zijung.me>  Mon, 23 Jul 2018 22:27:51 +0800
+ -- Zhihsian Que <i@zhihsian.me>  Mon, 23 Jul 2018 22:27:51 +0800
 
-zijung-configure (2.0.2) unstable; urgency=medium
+zhihsian-configure (2.0.2) unstable; urgency=medium
 
-  * 修復 zijung-sudo 未打包
+  * 修復 zhihsian-sudo 未打包
 
- -- Zijung Chueh <i@zijung.me>  Fri, 20 Jul 2018 00:54:18 +0800
+ -- Zhihsian Que <i@zhihsian.me>  Fri, 20 Jul 2018 00:54:18 +0800
 
-zijung-configure (2.0.1) unstable; urgency=medium
+zhihsian-configure (2.0.1) unstable; urgency=medium
 
-  * zijung-chrome 使用 https
+  * zhihsian-chrome 使用 https
 
- -- Zijung Chueh <i@zijung.me>  Thu, 19 Jul 2018 01:16:46 +0800
+ -- Zhihsian Que <i@zhihsian.me>  Thu, 19 Jul 2018 01:16:46 +0800
 
-zijung-configure (2.0.0) unstable; urgency=medium
-
-  * Initial Release.
-
- -- Zijung Chueh <i@zijung.me>  Wed, 18 Jul 2018 03:41:03 +0800
-
-zijung-configure (1.0.0) unstable; urgency=medium
+zhihsian-configure (2.0.0) unstable; urgency=medium
 
   * Initial Release.
 
- -- Zijung Chueh <i@zijung.me>  Sun, 13 May 2018 15:55:01 +0800
+ -- Zhihsian Que <i@zhihsian.me>  Wed, 18 Jul 2018 03:41:03 +0800
+
+zhihsian-configure (1.0.0) unstable; urgency=medium
+
+  * Initial Release.
+
+ -- Zhihsian Que <i@zhihsian.me>  Sun, 13 May 2018 15:55:01 +0800

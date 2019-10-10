@@ -1,9 +1,9 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: zijung-configure
-Source: https://github.com/zijung/zijung-configure
+Upstream-Name: zhihsian-configure
+Source: https://github.com/zhihsian/zhihsian-configure
 
 Files: *
-Copyright: 2018 Zijung Chueh <i@zijung.me>
+Copyright: 2018 Zhihsian Que <i@zhihsian.me>
 License: MIT
 
 License: MIT

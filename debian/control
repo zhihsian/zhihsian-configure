@@ -1,75 +1,75 @@
-Source: zijung-configure
+Source: zhihsian-configure
 Section: misc
 Priority: optional
-Maintainer: Zijung Chueh <i@zijung.me>
+Maintainer: Zhihsian Que <i@zhihsian.me>
 Build-Depends:
  debhelper (>= 11),
 Standards-Version: 4.1.3
-Homepage: https://github.com/zijung/zijung-configure
-Vcs-Browser: https://github.com/zijung/zijung-configure
-Vcs-Git: https://github.com/zijung/zijung-configure.git
+Homepage: https://github.com/zhihsian/zhihsian-configure
+Vcs-Browser: https://github.com/zhihsian/zhihsian-configure
+Vcs-Git: https://github.com/zhihsian/zhihsian-configure.git
 
-Package: zijung-libinput
+Package: zhihsian-libinput
 Architecture: all
 Depends:
  xserver-xorg-input-libinput,
 Description: My configure files of libinput
 
-Package: zijung-nvidia-graphics
+Package: zhihsian-nvidia-graphics
 Architecture: all
 Depends:
  nvidia-driver,
 Description: My configure files of nvidia graphics
 
-Package: zijung-x11-common
+Package: zhihsian-x11-common
 Architecture: all
 Depends:
  x11-common,
 Description: My configure files of x11
 
-Package: zijung-sudo
+Package: zhihsian-sudo
 Architecture: all
 Depends:
  sudo,
 Description: My configure files of sudo
 
-Package: zijung-noto
+Package: zhihsian-noto
 Architecture: all
 Depends:
  fonts-noto,
 Description: My configure files of fonts-noto
 
-Package: zijung-lightdm
+Package: zhihsian-lightdm
 Architecture: all
 Depends:
  desktop-base,
  lightdm,
 Description: My configure files of lightdm
 
-Package: zijung-lightdm-mbp
+Package: zhihsian-lightdm-mbp
 Architecture: all
 Depends:
- zijung-lightdm,
+ zhihsian-lightdm,
 Description: My configure files of lightdm for mbp
 
-Package: zijung-lightdm-gtk-greeter
+Package: zhihsian-lightdm-gtk-greeter
 Architecture: all
 Depends:
  desktop-base,
  lightdm,
 Description: My configure files of lightdm-gtk-greeter
 
-Package: zijung-slick-greeter
+Package: zhihsian-slick-greeter
 Architecture: all
 Depends:
  slick-greeter,
 Description: My configure files of slick-greeter
 
-Package: zijung-disable-xhc-wake
+Package: zhihsian-disable-xhc-wake
 Architecture: all
 Description: My configure files to disable xhc wake
 
-Package: zijung-plasma-desktop
+Package: zhihsian-plasma-desktop
 Architecture: all
 Conflicts:
  sddm-theme-debian-maui,
@@ -89,13 +89,13 @@ Depends:
  libappindicator3-1,
 Description: My configure files of plasma desktop
 
-Package: zijung-google-chrome
+Package: zhihsian-google-chrome
 Architecture: all
 Depends:
  fonts-noto-color-emoji,
 Description: My configure files of google-chrome
 
-Package: zijung-qt-dev
+Package: zhihsian-qt-dev
 Architecture: all
 Depends:
  qtcreator,
