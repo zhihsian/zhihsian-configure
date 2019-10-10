@@ -66,6 +66,6 @@ package_zhihsian-plasma-desktop() {
              'firefox-i18n-zh-tw',
              'libappindicator-gtk3')
 
-    install -D ${startdir}/plasma-desktop/ZijungBreeze.colors ${pkgdir}/usr/share/color-schemes/ZijungBreeze.colors
-    install -D ${startdir}/plasma-desktop/ZijungBreeze.colorscheme ${pkgdir}/usr/share/konsole/ZijungBreeze.colorscheme
+    install -D ${startdir}/plasma-desktop/ZhihsianBreeze.colors ${pkgdir}/usr/share/color-schemes/ZhihsianBreeze.colors
+    install -D ${startdir}/plasma-desktop/ZhihsianBreeze.colorscheme ${pkgdir}/usr/share/konsole/ZhihsianBreeze.colorscheme
 }

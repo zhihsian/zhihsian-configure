@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Zhihsian Que <i@zhihsian.me>
 Build-Depends:
  debhelper-compat (= 12),
-Standards-Version: 4.1.3
+Standards-Version: 4.4.0
 Homepage: https://github.com/zhihsian/zhihsian-configure
 Vcs-Browser: https://github.com/zhihsian/zhihsian-configure
 Vcs-Git: https://github.com/zhihsian/zhihsian-configure.git
@@ -12,81 +12,91 @@ Vcs-Git: https://github.com/zhihsian/zhihsian-configure.git
 Package: zhihsian-libinput
 Architecture: all
 Depends:
- ${shlibs:Depends}, ${misc:Depends},
  xserver-xorg-input-libinput,
+ ${misc:Depends},
+ ${shlibs:Depends},
 Description: My configure files of libinput
  Configure files of libinput.
 
 Package: zhihsian-nvidia-graphics
 Architecture: all
 Depends:
- ${shlibs:Depends}, ${misc:Depends},
  nvidia-driver,
+ ${misc:Depends},
+ ${shlibs:Depends},
 Description: My configure files of nvidia graphics
  Configure files of nvidia graphics.
 
 Package: zhihsian-x11-common
 Architecture: all
 Depends:
- ${shlibs:Depends}, ${misc:Depends},
  x11-common,
+ ${misc:Depends},
+ ${shlibs:Depends},
 Description: My configure files of x11
  Configure files of x11.
 
 Package: zhihsian-sudo
 Architecture: all
 Depends:
- ${shlibs:Depends}, ${misc:Depends},
  sudo,
+ ${misc:Depends},
+ ${shlibs:Depends},
 Description: My configure files of sudo
  Configure files of sudo.
 
 Package: zhihsian-noto
 Architecture: all
 Depends:
- ${shlibs:Depends}, ${misc:Depends},
  fonts-noto,
+ ${misc:Depends},
+ ${shlibs:Depends},
 Description: My configure files of fonts-noto
  Configure files of fonts-noto.
 
 Package: zhihsian-lightdm
 Architecture: all
 Depends:
- ${shlibs:Depends}, ${misc:Depends},
  desktop-base,
  lightdm,
+ ${misc:Depends},
+ ${shlibs:Depends},
 Description: My configure files of lightdm
  Configure files of lightdm.
 
 Package: zhihsian-lightdm-mbp
 Architecture: all
 Depends:
- ${shlibs:Depends}, ${misc:Depends},
  zhihsian-lightdm,
+ ${misc:Depends},
+ ${shlibs:Depends},
 Description: My configure files of lightdm for mbp
  Configure files of lightdm for mbp.
 
 Package: zhihsian-lightdm-gtk-greeter
 Architecture: all
 Depends:
- ${shlibs:Depends}, ${misc:Depends},
  desktop-base,
  lightdm,
+ ${misc:Depends},
+ ${shlibs:Depends},
 Description: My configure files of lightdm-gtk-greeter
  Configure files of lightdm-gtk-greeter.
 
 Package: zhihsian-slick-greeter
 Architecture: all
 Depends:
- ${shlibs:Depends}, ${misc:Depends},
  slick-greeter,
+ ${misc:Depends},
+ ${shlibs:Depends},
 Description: My configure files of slick-greeter
  Configure files of slick-greeter.
 
 Package: zhihsian-disable-xhc-wake
 Architecture: all
 Depends:
- ${shlibs:Depends}, ${misc:Depends},
+ ${misc:Depends},
+ ${shlibs:Depends},
 Description: My configure files to disable xhc wake
  Configure files to disable xhc wake.
 
@@ -95,39 +105,42 @@ Architecture: all
 Conflicts:
  sddm-theme-debian-maui,
 Depends:
- ${shlibs:Depends}, ${misc:Depends},
- kde-plasma-desktop,
- plasma-nm,
- plasma-applet-redshift-control,
- sddm-theme-debian-breeze,
  breeze-blurred,
- materia-gtk-theme,
- papirus-icon-theme,
- latte-dock,
  fcitx-rime,
  fcitx-skin-material,
  firefox,
  firefox-l10n-zh-tw,
+ kde-plasma-desktop,
+ latte-dock,
  libappindicator3-1,
+ materia-gtk-theme,
+ papirus-icon-theme,
+ plasma-applet-redshift-control,
+ plasma-nm,
+ sddm-theme-debian-breeze,
+ ${misc:Depends},
+ ${shlibs:Depends},
 Description: My configure files of plasma desktop
  Configure files of plasma desktop.
 
 Package: zhihsian-google-chrome
 Architecture: all
 Depends:
- ${shlibs:Depends}, ${misc:Depends},
- google-chrome-apt-source,
  fonts-noto-color-emoji,
+ google-chrome-apt-source,
+ ${misc:Depends},
+ ${shlibs:Depends},
 Description: My configure files of google-chrome
  Configure files of google-chrome.
 
 Package: zhihsian-qt-dev
 Architecture: all
 Depends:
- ${shlibs:Depends}, ${misc:Depends},
- qtcreator,
- qt5-default,
- qtdeclarative5-dev,
  qml-module-qtquick-controls2,
+ qt5-default,
+ qtcreator,
+ qtdeclarative5-dev,
+ ${misc:Depends},
+ ${shlibs:Depends},
 Description: My meta-package of qt development environment
  Meta-package of qt development environment.
