@@ -1,3 +1,9 @@
+zhihsian-configure (5.0.0) unstable; urgency=medium
+
+  * 添加 zhihsian-c++-dev
+
+ -- Zhihsian Que <i@zhihsian.me>  Sat, 2 Nov 2019 17:23:38 +0800
+
 zhihsian-configure (4.2.0) unstable; urgency=medium
 
   * 添加 zhihsian-qt-dev
