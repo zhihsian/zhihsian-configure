@@ -1,1 +1,1 @@
-noto/75-fonts-noto-sans-mono.conf /usr/share/fontconfig/conf.avail
+noto/70-fix-fonts-noto-sans-mono.conf /usr/share/fontconfig/conf.avail
