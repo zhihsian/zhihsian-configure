@@ -136,10 +136,10 @@ Description: My configure files of google-chrome
 Package: zhihsian-c++-dev
 Architecture: all
 Depends:
-  clang,
-  clang-format
+ clang,
+ clang-format,
+ cmake,
  ${misc:Depends},
-  cmake,
  ${shlibs:Depends},
 Description: My meta-package of c++ development environment
  Meta-package of c++ development environment.
