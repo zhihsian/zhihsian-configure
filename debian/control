@@ -102,16 +102,10 @@ Description: My configure files to disable xhc wake
 
 Package: zhihsian-plasma-desktop
 Architecture: all
-Conflicts:
- sddm-theme-debian-maui,
 Depends:
- breeze-blurred,
- fcitx-rime,
- fcitx-skin-material,
  firefox,
- firefox-l10n-zh-tw,
+ firefox-l10n-zh-cn,
  kde-plasma-desktop,
- latte-dock,
  libappindicator3-1,
  materia-gtk-theme,
  papirus-icon-theme,

@@ -1,3 +1,9 @@
+zhihsian-configure (5.2.0) unstable; urgency=medium
+
+  * 修改 plasma-desktop，不再依賴 fcitx
+
+ -- Zhihsian Que <i@zhihsian.me>  Sat, 25 Apr 2020 11:27:13 +0800
+
 zhihsian-configure (5.1.0) unstable; urgency=medium
 
   * 增加 noto 配置文件優先級
