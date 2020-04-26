@@ -103,6 +103,7 @@ Description: My configure files to disable xhc wake
 Package: zhihsian-plasma-desktop
 Architecture: all
 Depends:
+ breeze-blurred,
  firefox,
  firefox-l10n-zh-cn,
  kde-plasma-desktop,

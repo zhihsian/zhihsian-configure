@@ -1,3 +1,9 @@
+zhihsian-configure (5.2.1) unstable; urgency=medium
+
+  * 修改 plasma-desktop，依賴 BreezeBlurred
+
+ -- Zhihsian Que <i@zhihsian.me>  Sun, 26 Apr 2020 23:46:02 +0800
+
 zhihsian-configure (5.2.0) unstable; urgency=medium
 
   * 修改 plasma-desktop，不再依賴 fcitx
