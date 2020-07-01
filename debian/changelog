@@ -1,3 +1,9 @@
+zhihsian-configure (5.2.2) unstable; urgency=medium
+
+  * zhihsian-lightdm-mbp 改名 zhihsian-lightdm-hidpi
+
+ -- Zhihsian Que <i@zhihsian.me>  Wed, 1 Jul 2020 22:22:05 +0800
+
 zhihsian-configure (5.2.1) unstable; urgency=medium
 
   * 修改 plasma-desktop，依賴 BreezeBlurred

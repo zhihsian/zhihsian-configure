@@ -1,0 +1,2 @@
+lightdm-hidpi/10_greeter-wrapper.conf /usr/share/lightdm/lightdm.conf.d
+lightdm-hidpi/greeter-wrapper /etc/lightdm

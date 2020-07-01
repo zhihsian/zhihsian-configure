@@ -64,14 +64,14 @@ Depends:
 Description: My configure files of lightdm
  Configure files of lightdm.
 
-Package: zhihsian-lightdm-mbp
+Package: zhihsian-lightdm-hidpi
 Architecture: all
 Depends:
  zhihsian-lightdm,
  ${misc:Depends},
  ${shlibs:Depends},
-Description: My configure files of lightdm for mbp
- Configure files of lightdm for mbp.
+Description: My configure files of lightdm for HiDPI
+ Configure files of lightdm for HiDPI
 
 Package: zhihsian-lightdm-gtk-greeter
 Architecture: all
@@ -105,7 +105,7 @@ Architecture: all
 Depends:
  breeze-blurred,
  firefox,
- firefox-l10n-zh-cn,
+ firefox-l10n-zh-tw,
  kde-plasma-desktop,
  libappindicator3-1,
  materia-gtk-theme,
