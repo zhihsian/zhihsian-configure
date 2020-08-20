@@ -133,7 +133,9 @@ Architecture: all
 Depends:
  clang,
  clang-format,
+ clangd,
  cmake,
+ lldb,
  ${misc:Depends},
  ${shlibs:Depends},
 Description: My meta-package of c++ development environment

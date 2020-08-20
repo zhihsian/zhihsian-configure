@@ -1,3 +1,9 @@
+zhihsian-configure (5.2.3) unstable; urgency=medium
+
+  * zhihsian-c++-dev 添加 clangd、lldb
+
+ -- Zhihsian Que <i@zhihsian.me>  Thu, 20 Aug 2020 21:49:28 +0800
+
 zhihsian-configure (5.2.2) unstable; urgency=medium
 
   * zhihsian-lightdm-mbp 改名 zhihsian-lightdm-hidpi
