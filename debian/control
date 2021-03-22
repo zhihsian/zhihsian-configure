@@ -1,15 +1,15 @@
-Source: zhihsian-configure
+Source: zsien-configuration
 Section: misc
 Priority: optional
-Maintainer: Zhihsian Que <i@zhihsian.me>
+Maintainer: zsien <i@zsien.cn>
 Build-Depends:
  debhelper-compat (= 12),
 Standards-Version: 4.4.0
-Homepage: https://github.com/zhihsian/zhihsian-configure
-Vcs-Browser: https://github.com/zhihsian/zhihsian-configure
-Vcs-Git: https://github.com/zhihsian/zhihsian-configure.git
+Homepage: https://github.com/zsien/zsien-configuration
+Vcs-Browser: https://github.com/zsien/zsien-configuration
+Vcs-Git: https://github.com/zsien/zsien-configuration.git
 
-Package: zhihsian-libinput
+Package: zsien-libinput
 Architecture: all
 Depends:
  xserver-xorg-input-libinput,
@@ -18,7 +18,7 @@ Depends:
 Description: My configure files of libinput
  Configure files of libinput.
 
-Package: zhihsian-nvidia-graphics
+Package: zsien-nvidia-graphics
 Architecture: all
 Depends:
  nvidia-driver,
@@ -27,7 +27,7 @@ Depends:
 Description: My configure files of nvidia graphics
  Configure files of nvidia graphics.
 
-Package: zhihsian-x11-common
+Package: zsien-x11-common
 Architecture: all
 Depends:
  x11-common,
@@ -36,7 +36,7 @@ Depends:
 Description: My configure files of x11
  Configure files of x11.
 
-Package: zhihsian-sudo
+Package: zsien-sudo
 Architecture: all
 Depends:
  sudo,
@@ -45,16 +45,17 @@ Depends:
 Description: My configure files of sudo
  Configure files of sudo.
 
-Package: zhihsian-noto
+Package: zsien-fontconfig
 Architecture: all
 Depends:
  fonts-noto,
+ fonts-noto-cjk,
  ${misc:Depends},
  ${shlibs:Depends},
-Description: My configure files of fonts-noto
- Configure files of fonts-noto.
+Description: My configure files of fontconfig
+ Configure files of fontconfig.
 
-Package: zhihsian-lightdm
+Package: zsien-lightdm
 Architecture: all
 Depends:
  desktop-base,
@@ -64,16 +65,16 @@ Depends:
 Description: My configure files of lightdm
  Configure files of lightdm.
 
-Package: zhihsian-lightdm-hidpi
+Package: zsien-lightdm-hidpi
 Architecture: all
 Depends:
- zhihsian-lightdm,
+ zsien-lightdm,
  ${misc:Depends},
  ${shlibs:Depends},
 Description: My configure files of lightdm for HiDPI
  Configure files of lightdm for HiDPI
 
-Package: zhihsian-lightdm-gtk-greeter
+Package: zsien-lightdm-gtk-greeter
 Architecture: all
 Depends:
  desktop-base,
@@ -83,7 +84,7 @@ Depends:
 Description: My configure files of lightdm-gtk-greeter
  Configure files of lightdm-gtk-greeter.
 
-Package: zhihsian-slick-greeter
+Package: zsien-slick-greeter
 Architecture: all
 Depends:
  slick-greeter,
@@ -92,7 +93,7 @@ Depends:
 Description: My configure files of slick-greeter
  Configure files of slick-greeter.
 
-Package: zhihsian-disable-xhc-wake
+Package: zsien-disable-xhc-wake
 Architecture: all
 Depends:
  ${misc:Depends},
@@ -100,7 +101,7 @@ Depends:
 Description: My configure files to disable xhc wake
  Configure files to disable xhc wake.
 
-Package: zhihsian-plasma-desktop
+Package: zsien-plasma-desktop
 Architecture: all
 Depends:
  breeze-blurred,
@@ -118,7 +119,7 @@ Depends:
 Description: My configure files of plasma desktop
  Configure files of plasma desktop.
 
-Package: zhihsian-google-chrome
+Package: zsien-google-chrome
 Architecture: all
 Depends:
  fonts-noto-color-emoji,
@@ -128,7 +129,7 @@ Depends:
 Description: My configure files of google-chrome
  Configure files of google-chrome.
 
-Package: zhihsian-c++-dev
+Package: zsien-c++-dev
 Architecture: all
 Depends:
  clang,
@@ -141,7 +142,7 @@ Depends:
 Description: My meta-package of c++ development environment
  Meta-package of c++ development environment.
 
-Package: zhihsian-qt-dev
+Package: zsien-qt-dev
 Architecture: all
 Depends:
  qml-module-qtquick-controls2,
